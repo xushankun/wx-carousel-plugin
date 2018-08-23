@@ -1,0 +1,2 @@
+<list />
+<carousel bannerList="{{bannerList}}" currentTab="{{currentTab}}" bind:bindchange="bindchange" bind:tapItem="tapItem"/>

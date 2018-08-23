@@ -1,0 +1,6 @@
+<!--plugin/components/carousel/carousel.wxml-->
+ <swiper class="banner-block bgff" circular current="{{currentTab}}" previous-margin="48rpx" next-margin="48rpx" bindchange="bindchange">
+    <swiper-item wx:for="{{bannerList}}" wx:key="index" data-index="{{index}}" catchtap="tapItem">
+      <image mode="scaleToFill" src="{{item}}" class="slide-image {{currentTab === index ? 'active' : ''}}" />
+    </swiper-item>
+  </swiper>

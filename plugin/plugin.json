@@ -1,0 +1,6 @@
+{
+  "publicComponents": {
+    "carousel": "components/carousel/carousel"
+  },
+  "main": "index.js"
+}

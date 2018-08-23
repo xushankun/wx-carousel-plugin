@@ -1,0 +1,22 @@
+/* plugin/components/carousel/carousel.wxss */
+.banner-block {
+  height: 350rpx;
+}
+
+.banner-block .slide-image {
+  width: calc(100% - 40rpx);
+  height: 200rpx;
+  border-radius: 8rpx;
+}
+
+.banner-block .slide-image.active {
+  width: 100%;
+  height: 260rpx;
+}
+
+.banner-block swiper-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
